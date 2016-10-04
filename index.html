@@ -9,16 +9,17 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div id="main_block">
   <form name="calc" id="calculator">
   	<table>
   	<tr>
   	<td>
   		<input type="text" name="input" size="16" class="display" disabled>
+      <br>
+      <hr>
   	</td>
   	</tr>
-  	<tr>
-  	<td class="buttons">
+  	<tr class="buttons">
+  	<td>
       <input type="button" name="clear" value="ce" OnClick="CALCULATOR.clear_all()">
       <input type="button" name="clear" value="c" OnClick="CALCULATOR.clear_all()">
       <input type="button" name="clear" value="<=" OnClick="CALCULATOR.clear_one()">
@@ -46,6 +47,5 @@
   	</td>
   	</tr>
   	</table>
-</div>
 </body>
 </html>

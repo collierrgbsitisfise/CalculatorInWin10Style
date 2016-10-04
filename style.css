@@ -1,27 +1,37 @@
 #calculator table {
-     background-color: white;
+        background-color: white;
+        margin: 0 auto; /*position of tabel on the page(center)*/
 }
 
 #calculator table td {
-    border-spacing: 10px;
-    opacity: 1;
+        border-spacing: 10px;
+        opacity: 1;
 }
+
 tr.buttons{
-  background: #e5e5e5;
+    background: #e5e5e5;
 }
+
 input.display {
-    width: 90%;
-    height: 80px;
-    text-align: right;
-    background: white;
-    border: none;
+        width: 90%;
+        height: 80px;
+        text-align: right;
+        background: white;
+        border: none;
+        font-size: 23px;
 }
+
 input[type= button] {
-     font-size: 32px;
-     width: 80px;
-     height: 60px;
-     border-spacing: 20px;
-     colr: #bb33ff;
-     border: #e6e6ff;
-     background-color: transparent;
+        font-size: 32px;
+        width: 80px;
+        height: 60px;
+        border-spacing: 20px;
+        colr: #bb33ff;
+        border: #e6e6ff;
+        background-color: transparent;
+}
+
+ hr{
+    height:0.5px;
+    color: white;
 }

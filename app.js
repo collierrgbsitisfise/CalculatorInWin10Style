@@ -45,8 +45,11 @@ function createCalculator() {
     this.oper = '';
     calc.input.value = '';
   };
+
+  this.clear_one = function(){
+    this.curr = parseInt(his.curr) * (-1);
+    calc.input.value = this.curr;
+  };
 }
 
-
-alert('ok');
 var CALCULATOR = new createCalculator();

@@ -1,0 +1,26 @@
+ #calculator * {
+    font-size: 32px;
+}
+
+ #calculator table {
+     background-color: transparent;
+}
+
+ #calculator table td {
+    border-spacing: 10px;
+    opacity: 1;
+}
+input.display {
+    width: 90%;
+    height: 80px;
+    text-align: right;
+    background: white;
+    border: none;
+}
+input[type= button] {
+     width: 80px;
+     height: 60px;
+     colr: #bb33ff;
+     border: #e6e6ff;
+     background-color: transparent;
+}

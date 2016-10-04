@@ -7,6 +7,43 @@
   <title>Calculator</title>
 </head>
 <body>
-  
+  <div id="main_block">
+  <form name="calc" id="calculator">
+  	<table>
+  	<tr>
+  	<td>
+  		<input type="text" name="input" size="16" class="display" disabled>
+  	</td>
+  	</tr>
+  	<tr>
+  	<td class="buttons">
+  		<input type="button" name="one" value="1" OnClick="CALCULATOR.change('1')" >
+  		<input type="button" name="two" value="2" OnClick="CALCULATOR.change('2')">
+  		<input type="button" name="three" value="3" OnClick="CALCULATOR.change('3')">
+  		<input type="button" name="add" value="+" OnClick="CALCULATOR.operation('+')" class="intro">
+  		<br>
+  		<input type="button" name="four" value="4" OnClick="CALCULATOR.change('4')" >
+  		<input type="button" name="five" value="5" OnClick="CALCULATOR.change('5')">
+  		<input type="button" name="six" value="6" OnClick="CALCULATOR.change('6')">
+  		<input type="button" name="sub" value="-" OnClick="CALCULATOR.operation('-')" class="intro">
+  		<br>
+  		<input type="button" name="seven" value="7" OnClick="CALCULATOR.change('7')">
+  		<input type="button" name="eight" value="8" OnClick="CALCULATOR.change('8')">
+  		<input type="button" name="nine" value="9" OnClick="CALCULATOR.change('9')">
+  		<input type="button" name="mul" value="x" OnClick="CALCULATOR.operation('*')" class="intro">
+  		<br>
+  		<input type="button" name="clear" value="c" OnClick="CALCULATOR.clear_all()" class="intro">
+  		<input type="button" name="zero" value="0" OnClick="CALCULATOR.change('0')">
+  		<input type="button" name="pow"  value="^" OnClick="CALCULATOR.operation('^')" class="intro">
+  		<input type="button" name="div"  value="/" OnClick="CALCULATOR.operation('/')" class="intro">
+  		<br>
+        <input type="button" name="point"  value="." OnClick="CALCULATOR.change('.')" class="intro">
+        <input type="button" name="00"  value="00" OnClick="CALCULATOR.change('00')"  class="intro">
+        <input type="button" name="doit" value="=" OnClick="CALCULATOR.calc(CALCULATOR.oper);" id="equal" class="intro">
+
+  	</td>
+  	</tr>
+  	</table>
+</div>
 </body>
 </html>
